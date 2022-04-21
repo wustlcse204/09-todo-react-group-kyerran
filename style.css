@@ -1,0 +1,141 @@
+body {
+    background-color: #2D424D;
+    color: white;
+    font-family: 'SF Pro';
+}
+
+.container {
+    position: relative;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#add-button {
+    transform: scale(0.6);
+}
+
+p {
+    margin-top: -10px;
+    margin-bottom: 1rem;
+    position: relative;
+    left: 40px;
+}
+
+h2 {
+    font-family: 'Crenzo';
+}
+
+h1 {
+    font-family: 'Crenzo';
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+#check {
+     transform: scale(2);
+     float: left;
+}
+
+ul {
+     list-style: none;
+}
+
+#todo-text {
+     width: 600px;
+     background-color: #699AB3;
+}
+#todo-name {
+    background-color: #699AB3;
+}
+
+#add-button {
+    background: rgb(48, 187, 141); 
+    color: white;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 42px;
+    font-weight: bold;
+    width: 80px;
+    position: relative;
+    border-radius: 100px;
+}
+
+#add-button:hover {
+    background: rgb(112, 255, 184);
+}
+
+#todo-list-elements li{
+    position: relative;
+    top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.4em;
+    display: block;
+    color: #FFF;
+    border-radius: 12px;
+    border: 2px;
+    background-color: #78B1CD;
+    width: 800px;
+    height: 60px;
+    padding: .2em .8em;
+    text-decoration: none;
+
+}
+
+#todo-list-elements {
+    text-align: left;
+}
+
+#first {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+input[type=text] {
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+    /* left: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 36px;
+}
+
+input[type=checkbox] {
+    transform: scale(2.5);
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+label {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+    display: block;
+}
+button {
+    display: inline-block;
+}
+
+button:not(#add-button) {
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    top: 10px;
+    border: none;
+    position: relative;
+}
+button:hover {
+    background-color: #f80000e1;
+    color: white;
+}
