@@ -6,8 +6,10 @@ class NewTodo extends Component {
     return (
         <form id="first">
             <h2><label>To Do</label></h2>
-            <input type="text" id="todo-name"/>
+            <input type="text" id="todo-name" />
+            <ul id="todo-list-elements"></ul>
         </form> 
+        
     );
   }
 }
