@@ -16,13 +16,6 @@ body {
     transform: scale(0.6);
 }
 
-p {
-    margin-top: -10px;
-    margin-bottom: 1rem;
-    position: relative;
-    left: 40px;
-}
-
 h2 {
     font-family: 'Crenzo';
 }
@@ -32,22 +25,6 @@ h1 {
     text-align: center;
     position: relative;
     top: 40px;
-}
-#check {
-     transform: scale(2);
-     float: left;
-}
-
-ul {
-     list-style: none;
-}
-
-#todo-text {
-     width: 600px;
-     background-color: #699AB3;
-}
-#todo-name {
-    background-color: #699AB3;
 }
 
 #add-button {
@@ -68,34 +45,6 @@ ul {
     background: rgb(112, 255, 184);
 }
 
-#todo-list-elements li{
-    position: relative;
-    top: 36px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0.4em;
-    display: block;
-    color: #FFF;
-    border-radius: 12px;
-    border: 2px;
-    background-color: #78B1CD;
-    width: 800px;
-    height: 60px;
-    padding: .2em .8em;
-    text-decoration: none;
-
-}
-
-#todo-list-elements {
-    text-align: left;
-}
-
-#first {
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-}
-
 input[type=text] {
     color: white;
     border: 1px solid #ccc;
@@ -109,19 +58,13 @@ input[type=text] {
     height: 36px;
 }
 
-input[type=checkbox] {
-    transform: scale(2.5);
-    position: relative;
-    top: 15px;
-    left: 10px;
-}
-
 label {
     font-size: 24px;
     font-weight: bold;
     margin: 10px;
     display: block;
 }
+
 button {
     display: inline-block;
 }

@@ -4,48 +4,6 @@ body {
     font-family: 'SF Pro';
 }
 
-.container {
-    position: relative;
-    top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-#add-button {
-    transform: scale(0.6);
-}
-
-p {
-    margin-top: -10px;
-    margin-bottom: 1rem;
-    position: relative;
-    left: 40px;
-}
-
-h2 {
-    font-family: 'Crenzo';
-}
-
-h1 {
-    font-family: 'Crenzo';
-    text-align: center;
-    position: relative;
-    top: 40px;
-}
-#check {
-     transform: scale(2);
-     float: left;
-}
-
-ul {
-     list-style: none;
-}
-
-#todo-text {
-     width: 600px;
-     background-color: #699AB3;
-}
 #todo-name {
     background-color: #699AB3;
 }
@@ -63,18 +21,21 @@ ul {
     position: relative;
     border-radius: 100px;
 }
+#myTodos {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #add-button:hover {
     background: rgb(112, 255, 184);
 }
 
-#todo-list-elements li{
+p{
     position: relative;
-    top: 36px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0.4em;
+    top: 40px;
     display: block;
+    margin-right: auto;
+    margin-left: auto;
     color: #FFF;
     border-radius: 12px;
     border: 2px;
@@ -83,13 +44,15 @@ ul {
     height: 60px;
     padding: .2em .8em;
     text-decoration: none;
-
+    margin-bottom: 1rem;
 }
-
 #todo-list-elements {
     text-align: left;
 }
-
+div {
+    margin-left: auto;
+    margin-right: auto;
+}
 #first {
     margin-right: auto;
     margin-left: auto;
@@ -102,7 +65,6 @@ input[type=text] {
     border-radius: 4px;
     box-sizing: border-box;
     position: relative;
-    /* left: 10px; */
     margin-left: auto;
     margin-right: auto;
     width: 400px;
@@ -110,18 +72,13 @@ input[type=text] {
 }
 
 input[type=checkbox] {
-    transform: scale(2.5);
     position: relative;
     top: 15px;
-    left: 10px;
+    transform: scale(2);
+    float: left;
 }
 
-label {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 10px;
-    display: block;
-}
+
 button {
     display: inline-block;
 }
