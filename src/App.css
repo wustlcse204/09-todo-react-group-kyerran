@@ -7,6 +7,7 @@ body {
 .container {
     position: relative;
     top: 100px;
+    right: 24px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -14,6 +15,14 @@ body {
 
 #add-button {
     transform: scale(0.6);
+}
+
+#sort {
+    background-color: #ffcc5fe1;
+    color: black; 
+    font-weight: bold;
+    width: 80px;
+    right: 400px;
 }
 
 h2 {

@@ -51,7 +51,7 @@ class App extends Component {
             self.setState({
               todos: [...self.state.todos, JSON.parse(this.responseText)]
             })
-            this.sortTodo();
+           self.sortTodo();
         } else if (this.readyState == 4) {
 
             // this.status !== 200, error from server
@@ -106,7 +106,9 @@ class App extends Component {
       <div className="container">
         <div className="row" id="todo-list">
           <div className="col">
-          <button onClick={this.sortTodo}>Sort</button>
+            <div>
+              <button onClick={this.sortTodo} id="sort">Sort</button>
+            </div>
               <section id="myTodos">
                 <NewTodo newTodo={this.newTodo} onChange={this.onChange} input={this.state.input} adding={this.addTodo} />
                 {

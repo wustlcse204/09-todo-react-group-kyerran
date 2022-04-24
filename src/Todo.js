@@ -120,12 +120,6 @@ class Todo extends Component {
     xhttp5.send(JSON.stringify(data));
     }
 
-    /*sorting() {
-        todos.sort(function (a, b) {
-            return a.text.localeCompare(b.text);
-          })
-    }
-    */
 
     render() {
     return (
