@@ -23,6 +23,7 @@ body {
     font-weight: bold;
     width: 80px;
     right: 400px;
+    position: static;
 }
 
 h2 {
