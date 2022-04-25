@@ -1,13 +1,13 @@
 {
-  "main.css": "/09-todo-react-kyerran/static/css/main.8adc0d3c.chunk.css",
-  "main.js": "/09-todo-react-kyerran/static/js/main.e87ce9d5.chunk.js",
-  "main.js.map": "/09-todo-react-kyerran/static/js/main.e87ce9d5.chunk.js.map",
-  "static/js/1.939cbde5.chunk.js": "/09-todo-react-kyerran/static/js/1.939cbde5.chunk.js",
-  "static/js/1.939cbde5.chunk.js.map": "/09-todo-react-kyerran/static/js/1.939cbde5.chunk.js.map",
-  "runtime~main.js": "/09-todo-react-kyerran/static/js/runtime~main.43c0041e.js",
-  "runtime~main.js.map": "/09-todo-react-kyerran/static/js/runtime~main.43c0041e.js.map",
-  "static/css/main.8adc0d3c.chunk.css.map": "/09-todo-react-kyerran/static/css/main.8adc0d3c.chunk.css.map",
-  "index.html": "/09-todo-react-kyerran/index.html",
-  "precache-manifest.78553b99b9c09a04110954df77295054.js": "/09-todo-react-kyerran/precache-manifest.78553b99b9c09a04110954df77295054.js",
-  "service-worker.js": "/09-todo-react-kyerran/service-worker.js"
+  "main.css": "/09-todo-react-group-kyerran/static/css/main.8adc0d3c.chunk.css",
+  "main.js": "/09-todo-react-group-kyerran/static/js/main.e87ce9d5.chunk.js",
+  "main.js.map": "/09-todo-react-group-kyerran/static/js/main.e87ce9d5.chunk.js.map",
+  "static/js/1.939cbde5.chunk.js": "/09-todo-react-group-kyerran/static/js/1.939cbde5.chunk.js",
+  "static/js/1.939cbde5.chunk.js.map": "/09-todo-react-group-kyerran/static/js/1.939cbde5.chunk.js.map",
+  "runtime~main.js": "/09-todo-react-group-kyerran/static/js/runtime~main.845a5a19.js",
+  "runtime~main.js.map": "/09-todo-react-group-kyerran/static/js/runtime~main.845a5a19.js.map",
+  "static/css/main.8adc0d3c.chunk.css.map": "/09-todo-react-group-kyerran/static/css/main.8adc0d3c.chunk.css.map",
+  "index.html": "/09-todo-react-group-kyerran/index.html",
+  "precache-manifest.1b4f7c59edf0060377b6a64cdfe56885.js": "/09-todo-react-group-kyerran/precache-manifest.1b4f7c59edf0060377b6a64cdfe56885.js",
+  "service-worker.js": "/09-todo-react-group-kyerran/service-worker.js"
 }

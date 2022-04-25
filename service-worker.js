@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/09-todo-react-kyerran/precache-manifest.78553b99b9c09a04110954df77295054.js"
+  "/09-todo-react-group-kyerran/precache-manifest.1b4f7c59edf0060377b6a64cdfe56885.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/09-todo-react-kyerran/index.html", {
+workbox.routing.registerNavigationRoute("/09-todo-react-group-kyerran/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
