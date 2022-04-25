@@ -1,3 +1,15 @@
+
+.heading {
+  text-align: right;
+  /* media queries */
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+  @media (max-width: 400px) {
+    text-align: left;
+  }
+}
+
 body {
     background-color: #2D424D;
     color: white;
@@ -22,12 +34,14 @@ body {
     color: black; 
     font-weight: bold;
     width: 80px;
-    right: 400px;
     position: static;
 }
 
 h2 {
     font-family: 'Crenzo';
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 h1 {
@@ -35,6 +49,8 @@ h1 {
     text-align: center;
     position: relative;
     top: 40px;
+    position: relative;
+    left: 20px;
 }
 
 #add-button {

@@ -106,10 +106,10 @@ class App extends Component {
       <div className="container">
         <div className="row" id="todo-list">
           <div className="col">
-            <div>
+              <section id="myTodos">
+              <div>
               <button onClick={this.sortTodo} id="sort">Sort</button>
             </div>
-              <section id="myTodos">
                 <NewTodo newTodo={this.newTodo} onChange={this.onChange} input={this.state.input} adding={this.addTodo} />
                 {
                   this.state.todos.map((todo) => 
