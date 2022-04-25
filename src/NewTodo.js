@@ -11,7 +11,6 @@ class NewTodo extends Component {
   render() {
     return (
         <form onSubmit ={this.props.adding}>
-            <h2><label>To Do</label></h2>
             <button type="submit" id="add-button">+</button>  
             <input value={this.props.input} onChange={this.props.onChange} type="text" id="todo-name" />  
         </form> 
