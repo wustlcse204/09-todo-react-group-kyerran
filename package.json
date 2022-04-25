@@ -1,8 +1,8 @@
 {
   "name": "todo-react",
-  "homepage": "https://wustlcse204.github.io/09-todo-react-kyerranorton",
+  "homepage": "https://wustlcse204.github.io/09-todo-react-kyerran",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.6.1",
