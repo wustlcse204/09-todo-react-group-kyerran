@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "17c3a8786c26c4b5dc00",
-    "url": "/09-todo-react-kyerranorton/static/css/main.d528faf6.chunk.css"
+    "revision": "e87ce9d57a56a1f6e0f4",
+    "url": "/09-todo-react-kyerranorton/static/css/main.8adc0d3c.chunk.css"
   },
   {
-    "revision": "17c3a8786c26c4b5dc00",
-    "url": "/09-todo-react-kyerranorton/static/js/main.17c3a878.chunk.js"
+    "revision": "e87ce9d57a56a1f6e0f4",
+    "url": "/09-todo-react-kyerranorton/static/js/main.e87ce9d5.chunk.js"
   },
   {
     "revision": "939cbde5f9c76620fa49",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/09-todo-react-kyerranorton/static/js/runtime~main.7e1ddfb2.js"
   },
   {
-    "revision": "fe5c2acfd39ad1f5ae1675a83a704d99",
+    "revision": "f0d4c3092b3b6dc46b4ebb60291b8e9f",
     "url": "/09-todo-react-kyerranorton/index.html"
   }
 ];
