@@ -1,14 +1,14 @@
 
 .heading {
-  text-align: right;
-  /* media queries */
-  @media (max-width: 767px) {
-    text-align: center;
+    text-align: right;
+    /* media queries */
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+    @media (max-width: 400px) {
+      text-align: left;
+    }
   }
-  @media (max-width: 400px) {
-    text-align: left;
-  }
-}
 
 body {
     background-color: #2D424D;
@@ -34,7 +34,8 @@ body {
     color: black; 
     font-weight: bold;
     width: 80px;
-    position: static;
+    position: relative;
+    right: 200px;
 }
 
 h2 {
